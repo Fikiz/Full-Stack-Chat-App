@@ -1,6 +1,6 @@
 .chat-box {
-    height: 100vh;
-    width: 100%;
+    
+    
     position: relative;
     background-color: #f1f5ff;
     display: flex;
@@ -167,7 +167,7 @@
 @media (max-width: 900px) {
     .chat-box {
         height: 100vh;
-        width: 150%;
+        width: 140%;
     }
 
     .chat-user .arrow {
@@ -206,3 +206,5 @@
         font-size: 16px;
     }
 }
+
+
