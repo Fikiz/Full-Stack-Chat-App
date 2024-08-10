@@ -1,0 +1,44 @@
+.chat {
+    min-height: 100vh;
+    background: linear-gradient(#596AFF, #383699);
+    display: grid;
+    place-items: center;
+    padding: 0; /* Remove padding if needed */
+    margin: 0; /* Remove margin if needed */
+}
+
+.chat-container {
+    width: 100%; /* Full width of the screen */
+    height: 100vh; /* Full height of the screen */
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Maintain the layout proportions */
+    background-color: aliceblue;
+}
+
+.ls, .chat-box, .rs {
+    height: 100%;
+}
+
+.loading{
+    font-size: 50px;
+    color: white;
+}
+
+
+@media (max-widht:900px) {
+    .chat-container{
+        display: flex;
+    }
+
+    .loading{
+        font-size: 30px;
+    }
+    .chat-container {
+        width: 100%; /* Full width of the screen */
+        height: 100vh; /* Full height of the screen */
+        display: grid;
+        grid-template-columns: 1fr -1fr 1fr; /* Maintain the layout proportions */
+        background-color: aliceblue;
+    }
+    
+}
